@@ -20,3 +20,25 @@ const people = {
 }
 
 let result = `Name: ${people.name}, Age ${people.age} and Location: ${people.location}`;
+
+// Examples console
+
+console.log("Hello world!");
+
+function returnEvenValues(array) {
+    let evenNumbers = [];
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] % 2 === 0) {
+            evenNumbers.push(array[i]);
+            console.log(`${array[i]} - is even`)
+        } else {
+            console.log(`${array[i]} - not even`);
+        }
+    }
+    return evenNumbers;
+}
+
+console.log('Numbers: ');
+let array = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+returnEvenValues(array);
