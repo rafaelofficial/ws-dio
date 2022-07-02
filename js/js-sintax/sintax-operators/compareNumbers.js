@@ -37,4 +37,4 @@ function createSecondPhrase(number1, number2) {
 }
 
 
-console.log(compareNumbers(20));
+console.log(compareNumbers(20, 20));
